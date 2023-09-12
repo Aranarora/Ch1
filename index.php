@@ -26,6 +26,8 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
       <li><?php echo $best_sellers[0]; ?></li>
       <li><?php echo $best_sellers[1]; ?></li>
       <li><?php echo $best_sellers[2]; ?></li>
+      <li><?php echo $best_sellers[4]; ?></li>
+      <li><?php echo $best_sellers[5]; ?></li>
     </ul>
     <h2>Nutrition (per 100g)</h2>
     <p>Fat:   <?php echo $nutrition['fat']; ?>%</p>
