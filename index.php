@@ -4,9 +4,10 @@ $name  = 'Aran Arora';
 $price = 2;
 
 $nutrition = [
-    'fat'   => 16,
-    'sugar' => 51,
-    'salt'  => 6.3,
+    'fat'   => 42,
+    'sugar' => 60,
+    'salt'  => 3.5,
+    'protein' => 2.6,
 ];
 ?>
 <!DOCTYPE html>
