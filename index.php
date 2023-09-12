@@ -11,6 +11,7 @@ $nutrition = [
 ];
 $nutrition['fat']   = 36;
 $nutrition['fiber'] = 2.1;
+$nutrition['protein'] = 7.3;
 $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
     'Bubble gum', 'Toffee', 'Jelly beans',];
 ?>
@@ -41,4 +42,3 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
        $<?php echo $price; ?> per pack.</p>
   </body>
 </html>
-$nutrition['protein'] = 7.3;
