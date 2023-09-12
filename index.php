@@ -1,6 +1,6 @@
 <?php 
-$name  = 'Aran Arora';
 $name = 'Raj';
+$name  = 'Aran Arora';
 $price = 2;
 
 $nutrition = [
