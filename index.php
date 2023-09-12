@@ -9,6 +9,8 @@ $nutrition = [
     'salt'  => 3.5,
     'protein' => 2.6,
 ];
+$best_sellers = ['Chocolate', 'Mints', 'Fudge',
+    'Bubble gum', 'Toffee', 'Jelly beans',];
 ?>
 <!DOCTYPE html>
 <html>
