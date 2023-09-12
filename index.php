@@ -2,6 +2,9 @@
 $name = 'Raj';
 $name  = 'Aran Arora';
 $price = 2;
+$prefix  = 'Thank you';
+$name    = 'Ivy';
+$message = $prefix . ', ' . $name;
 $favorites = ['Chocolate', 'Toffee', 'Fudge',];
 $items    = 5;
 $cost     = 8;
@@ -68,5 +71,7 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
     <p>Subtotal: $<?= $subtotal ?></p>
     <p>Tax: $<?= $tax ?></p>
     <p>Total: $<?= $total ?></p>
+    <h2><?= $name ?>'s Order</h2>
+    <p><?= $message ?></p>
   </body>
 </html>
