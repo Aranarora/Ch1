@@ -21,6 +21,12 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge',
   <body>
     <h1>The Candy Store</h1>
     <h2>Welcome <?php echo $name; ?></h2>
+    <h2>Best Sellers</h2>
+    <ul>
+      <li><?php echo $best_sellers[0]; ?></li>
+      <li><?php echo $best_sellers[1]; ?></li>
+      <li><?php echo $best_sellers[2]; ?></li>
+    </ul>
     <h2>Nutrition (per 100g)</h2>
     <p>Fat:   <?php echo $nutrition['fat']; ?>%</p>
     <p>Sugar: <?php echo $nutrition['sugar']; ?>%</p>
