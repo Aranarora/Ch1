@@ -4,11 +4,13 @@ $name  = 'Aran Arora';
 $price = 2;
 
 $nutrition = [
-    'fat'   => 42,
-    'sugar' => 60,
-    'salt'  => 3.5,
+    'fat'   => 38,
+    'sugar' => 51,
+    'salt'  => 0.25,
     'protein' => 2.6,
 ];
+$nutrition['fat']   = 36;
+$nutrition['fiber'] = 2.1;
 $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
     'Bubble gum', 'Toffee', 'Jelly beans',];
 ?>
