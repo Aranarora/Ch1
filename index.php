@@ -2,7 +2,7 @@
 $name = 'Raj';
 $name  = 'Aran Arora';
 $price = 2;
-
+$favorites = ['Chocolate', 'Toffee', 'Fudge',];
 $offers = [
   ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
   ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
