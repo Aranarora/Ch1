@@ -30,6 +30,8 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
   <body>
     <h1>The Candy Store</h1>
     <h2>Welcome <?php echo $name; ?></h2>
+    <p>Your favorite type of candy is:
+       <?= $favorites[0] ?>.</p>
     <h2>Best Sellers</h2>
     <ul>
       <li><?php echo $best_sellers[0]; ?></li>
