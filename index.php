@@ -51,6 +51,8 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
       $<?php echo $offers[1]['price']; ?> </p>
     <p><?php echo $offers[2]['name']; ?> -
       $<?php echo $offers[2]['price']; ?> </p>
+      <p><?php echo $offers[3]['name']; ?> -
+      $<?php echo $offers[3]['price']; ?> </p>
     <p>The cost of your candy is 
        $<?php echo $price; ?> per pack.</p>
   </body>
