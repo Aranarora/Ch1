@@ -3,6 +3,11 @@ $name = 'Raj';
 $name  = 'Aran Arora';
 $price = 2;
 
+$offers = [
+  ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
+  ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
+  ['name' => 'Fudge',  'price' => 4, 'stock' => 97,],
+];
 $nutrition = [
     'fat'   => 38,
     'sugar' => 51,
