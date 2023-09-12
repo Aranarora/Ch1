@@ -15,7 +15,7 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge',
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Variables</title>
+    <title>Ch1</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
