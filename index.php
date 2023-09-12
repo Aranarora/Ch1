@@ -3,6 +3,13 @@ $name  = 'Aran Arora';
 $name = 'Raj';
 $price = 2;
 ?>
+<?php 
+$nutrition = [
+    'fat'   => 16,
+    'sugar' => 51,
+    'salt'  => 6.3,
+];
+?>
 <!DOCTYPE html>
 <html>
   <head>
