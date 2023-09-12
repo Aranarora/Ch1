@@ -7,6 +7,7 @@ $offers = [
   ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
   ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
   ['name' => 'Fudge',  'price' => 4, 'stock' => 97,],
+  ['name' => 'Chocolate',  'price' => 2, 'stock' => 83,],
 ];
 $nutrition = [
     'fat'   => 38,
