@@ -3,6 +3,11 @@ $name = 'Raj';
 $name  = 'Aran Arora';
 $price = 2;
 $favorites = ['Chocolate', 'Toffee', 'Fudge',];
+$items    = 3;
+$cost     = 5;
+$subtotal = $cost * $items;
+$tax      = ($subtotal / 100) * 20;
+$total    = $subtotal + $tax;
 $offers = [
   ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
   ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
@@ -57,5 +62,11 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
       $<?php echo $offers[3]['price']; ?> </p>
     <p>The cost of your candy is 
        $<?php echo $price; ?> per pack.</p>
+    <h2>Shopping Cart</h2>
+    <p>Items: <?= $items ?></p>
+    <p>Cost per pack: $<?= $cost ?></p>
+    <p>Subtotal: $<?= $subtotal ?></p>
+    <p>Tax: $<?= $tax ?></p>
+    <p>Total: $<?= $total ?></p>
   </body>
 </html>
