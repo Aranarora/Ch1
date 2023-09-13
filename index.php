@@ -11,6 +11,10 @@ $cost     = 8;
 $subtotal = $cost * $items;
 $tax      = ($subtotal / 100) * 20;
 $total    = $subtotal + $tax;
+$item    = 'Chocolate';
+$stock   = 5;
+$wanted  = 8;
+$can_buy = ($wanted <= $stock);
 $offers = [
   ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
   ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
@@ -80,5 +84,12 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
     <!-- String operation -->
     <h2><?= $name ?>'s Order</h2>
     <p><?= $message ?></p>
+    <!-- Camparison operators -->
+    <h2>Shopping Cart</h2>
+    <p>Item:    <?= $item ?></p>
+    <p>Stock:   <?= $stock ?></p>
+    <p>Wanted:  <?= $wanted ?></p>
+    <p>Can buy: <?= $can_buy ?></p>
+
   </body>
 </html>
