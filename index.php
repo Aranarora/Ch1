@@ -36,7 +36,7 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
 
     $username = 'Aran Arora';                                   // Variable to hold username
 
-$greeting = 'Hello, ' . $username . '.';             // Greeting is 'Hello' + username
+$greeting = 'say Hi, ' . $username . '.';             // Greeting is 'Hello' + username
 
 $offer = [                                           // Create array to hold offer
     'item'     => 'Chocolate',                       // Item on offer
