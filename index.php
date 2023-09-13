@@ -12,8 +12,8 @@ $subtotal = $cost * $items;
 $tax      = ($subtotal / 100) * 20;
 $total    = $subtotal + $tax;
 $item    = 'Chocolate';
-$stock   = 5;
-$wanted  = 3;
+$stock   = 3;
+$wanted  = 5;
 $deliver = true;
 $can_buy = (($wanted <= $stock) && ($deliver == true));
 $offers = [
