@@ -34,7 +34,7 @@ $nutrition['protein'] = 7.3;
 $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
     'Bubble gum', 'Toffee', 'Jelly beans',];
 
-    $username = 'Ivy';                                   // Variable to hold username
+    $username = 'Aran Arora';                                   // Variable to hold username
 
 $greeting = 'Hello, ' . $username . '.';             // Greeting is 'Hello' + username
 
@@ -106,7 +106,7 @@ $saving      = $usual_price - $offer_price;          // Total saving
     <p>Stock:   <?= $stock ?></p>
     <p>Wanted: <?= $wanted ?></p>
     <p>Can buy: <?= $can_buy ?></p>
-    
+
     <!-- Example php -->
 
     <h2>Multi-buy Offer</h2>
