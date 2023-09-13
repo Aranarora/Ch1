@@ -1,38 +1,50 @@
 <?php 
+// creating and assesing variables in php
+// Update the variables
 $name = 'Raj';
 $name  = 'Aran Arora';
 $price = 2;
+// Joining together string variables
 $prefix  = 'Thank you';
 $name    = 'Aran Arora';
 $message = "$prefix $name";
+// Shorthand operation variables
 $favorites = ['Chocolate', 'Toffee', 'Fudge',];
+// Arithmetic operation variables
 $items    = 5;
 $cost     = 8;
 $subtotal = $cost * $items;
 $tax      = ($subtotal / 100) * 20;
 $total    = $subtotal + $tax;
+// Add the Comparison operators variables
+// Logical operators
 $item    = 'Chocolate';
 $stock   = 3;
 $wanted  = 5;
 $deliver = true;
 $can_buy = (($wanted <= $stock) && ($deliver == true));
+// Creating and adding multidimendional array
 $offers = [
   ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
   ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
   ['name' => 'Fudge',  'price' => 4, 'stock' => 97,],
   ['name' => 'Chocolate',  'price' => 2, 'stock' => 83,],
 ];
+// Creating associative arrays
 $nutrition = [
     'fat'   => 38,
     'sugar' => 51,
     'salt'  => 0.25,
     'protein' => 2.6,
 ];
+// Changing the values in stored array
 $nutrition['fat']   = 36;
 $nutrition['fiber'] = 2.1;
 $nutrition['protein'] = 7.3;
+// creating and assessing indexed array
 $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
     'Bubble gum', 'Toffee', 'Jelly beans',];
+// example php variables
 
     $username = 'Aran Arora';                                   // Variable to hold username
 
