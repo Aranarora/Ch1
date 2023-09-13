@@ -33,6 +33,21 @@ $nutrition['fiber'] = 2.1;
 $nutrition['protein'] = 7.3;
 $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
     'Bubble gum', 'Toffee', 'Jelly beans',];
+
+    $username = 'Ivy';                                   // Variable to hold username
+
+$greeting = 'Hello, ' . $username . '.';             // Greeting is 'Hello' + username
+
+$offer = [                                           // Create array to hold offer
+    'item'     => 'Chocolate',                       // Item on offer
+    'qty'      => 5,                                 // Quantity to buy
+    'price'    => 5,                                 // Usual price per pack
+    'discount' => 4,                                 // Offer price per pack
+];
+
+$usual_price = $offer['qty'] * $offer['price'];      // Usual total price
+$offer_price = $offer['qty'] * $offer['discount'];   // Offer total price
+$saving      = $usual_price - $offer_price;          // Total saving
 ?>
 <!DOCTYPE html>
 <html>
@@ -91,6 +106,17 @@ $best_sellers = ['Chocolate', 'Mints', 'Fudge', 'Licorice',
     <p>Stock:   <?= $stock ?></p>
     <p>Wanted: <?= $wanted ?></p>
     <p>Can buy: <?= $can_buy ?></p>
+    
+    <!-- Example php -->
+
+    <h2>Multi-buy Offer</h2>
+
+    <p><?= $greeting ?></p>
+
+    <p class="sticker">Save $<?= $saving ?></p>
+
+    <p>Buy <?= $offer['qty'] ?> packs of <?= $offer['item'] ?> 
+      for $<?= $offer_price ?><br> (usual price $<?= $usual_price ?>)</p> 
 
   </body>
 </html>
