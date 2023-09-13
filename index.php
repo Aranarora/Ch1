@@ -40,7 +40,7 @@ $greeting = 'say Hi, ' . $username . '.';             // Greeting is 'Hello' + u
 
 $offer = [                                           // Create array to hold offer
     'item'     => 'Chocolate',                       // Item on offer
-    'qty'      => 5,                                 // Quantity to buy
+    'qty'      => 3,                                 // Quantity to buy
     'price'    => 5,                                 // Usual price per pack
     'discount' => 4,                                 // Offer price per pack
 ];
